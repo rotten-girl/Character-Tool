@@ -14,23 +14,35 @@
         There's a huge amount of editable shit in here, in fact the whole thing is
         modifiable bc you got the whole code in here. But I went through and marked
         out all the important bits that you really need to change, Name and info
-        and all that lovely bullshit
+        and all that lovely bullshit.
      -->
     <div class="container-fluid">
       <div class="character-profile">
+        <!-- In this first part is the entire top bar. This part is
+         usually updated through the onsite gui for character name, tags,
+         fields, and that sort of thing. In this case because we do not
+         have access to that gui it will need to be manually updated.-->
           <div class="row profile-header">
 
           <!-- Name + Info -->
               <div class="col-lg-6 col-12 profile-section profile-name-section">
                 <div class="img-thumbnail">
+                  <!-- Replace the below placeholder.co link with whatever image
+                   you would like to use as your icon, the image will be automatically
+                   reduced to 200x200px and made into a square at the center.-->
                   <img src="https://placehold.co/200" class="profile-name-icon">
                 </div>
                 <div class="profile-name-info">
+                  <!-- Character Name-->
                    <h1 class="display-4">Character Name</h1>
                 </div>
               </div>
 
-            <!-- Character Info -->
+            <!-- Character Info
+              Below is the right side/lower panel including design credit,
+              character creation date, and credit links for the original 
+              artist and/or designer.
+            -->
               <div class="col-lg-6 col-12 profile-section profile-info-section">
                   <div class="card-block bg-faded">
                     <div class="profile-info-title hidden-lg-up"><h2>Info</h2><hr></div>
@@ -48,12 +60,17 @@
                                 Designer
                             </dt>
                               <dd class="field-value col-sm-8">
-                                  <a href="credit">Designer Username1</a>, 
-                                  <a href="credit">Designer Username2</a>,
+                                  <a href="link">Designer Username</a>
+                                  <!-- Copy-paste the following line of code
+                                   below to include more artists!
+                                   
+                                   + <a href="link">Designer Username</a>
+
+                                   -->
                               </dd>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 profile-tags-content">
-                            <p class="badge badge-primary badge-pill">Human</p>
+                            <p class="badge badge-primary badge-pill">Tags!</p>
                         </div>
                     </div>
                   </div>
@@ -62,20 +79,37 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <div id="footer" class="text-muted text-center p-3 footer" data-sticky-footer="">
-<div>
-                <span class="mx-1">2041 Users Online</span>
-            <span class="mx-1">12:15 am</span>
-</div>
-<div>
-    <span class="mx-2"><a href="https://toyhou.se/~about">About</a></span>
-    <span class="mx-2"><a href="https://toyhou.se/~faq/general">FAQ</a></span>
-                <span class="mx-2"><a href="https://toyhou.se/~tickets">HelpDesk</a></span>
-            <span class="mx-2"><a href="https://toyhou.se/~rules">Rules</a></span>
-    <span class="mx-2"><a href="https://toyhou.se/~tos">TOS</a></span>
-            <span class="mx-2"><a href="https://toyhou.se/~browse/search">Search</a></span>
-                        </div>
+    
+      <!-- The part where you put your code!
+      
+      Below is the part where you can put whatever html code you want,
+      and have it show up as though you added it via the profile editor
+      onsite!
+
+      -->
+
+      <!--
+
+!! TURN OFF WYSIWYG OR THE CODE WILL BREAK !!
+
+for fancy text : https://yaytext.com/styles
+for song MP3s: https://filegarden.com
+
+-->
+
+
+
+
+
+    <!-- Footer, Do Not Modify! Make sure your profile code is above this! -->
+    <div id="footer" class="text-muted text-center p-3 footer" style="margin-top: 2vh;">
+      <div>
+        <span class="mx-1">ANTI-CAPITALIST SOFTWARE LICENSE (v 1.4) Copyright © 2025 Rotten-Girl</span>
+      </div>
+    <div>
+      <span class="mx-2"><a href="https://github.com/rotten-girl/Character-Tool">Github</a></span>
+      <span class="mx-2"><a href="https://toyhou.se/">Toyhou.se</a></span>
+    </div>
     </div>
   </body>
 </html>

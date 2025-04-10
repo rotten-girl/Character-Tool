@@ -78,11 +78,11 @@ use as an alternative archive. But change your wording to fit your needs (ESPECI
 
 ````````````````````````````````````````````````````````````````````````````````````
 CURRENT PROGRESS
-[] Create a faithful lookalike to the basic toyhouse character profile
-[] Make it less of a nightmare to write code for
+[O] Create a faithful lookalike to the basic toyhouse character profile
+[O] Make it less of a nightmare to write code for
 [] Parse the preexisting css and trim down as much as I can, while maintaining
 as many names as I can to preserve compatibility
-[] Make sure the site remains mobile friendly
+[O] Make sure the site remains mobile friendly
 
 THINGS I WANT TO DO EVENTUALLY
 [] Make several colour themes for the basic profile, including but not limited to
