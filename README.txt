@@ -31,11 +31,6 @@ This is technically the second version, but the first sucked ass and never left 
 
 Okay rambling done.
 
-Terms Of Service:
-1. don't sell this code, or anything made using any part of it.
-2. don't publish this code without linking back to the original github (if u want to contribute make a fork!)
-3. don't host this code on any site that also includes ads, or is in any way for profit.
-
 Install instructions:
 1. download the latest release of Loverboy's Character Tool (LCT)
 2. extract the zip into wherever you want to keep your characters (as the tool will incorperate a link into your character profile)
