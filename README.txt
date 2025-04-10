@@ -3,6 +3,8 @@
 | `--.\ '__' /\ \_/ /| {__ | .-. \| {}  }\ '__' / }  {  __ \     }\     }
 `----' `----'  `---' `----'`-' `-'`----'  `----'  `--' '__' `---'  `---' 
 
+THIS CODE ISNT EVEN CLOSE TO FINISHED HOMIES THERE'S LITERALLY NO USABLE CODE YET
+
 welcome to the bone zone, I fucking hate toyhouse <3
 
 Idk who all is gonna see this, since I don't really plan on making this super public
@@ -24,7 +26,7 @@ have higher limitations on what you can do with character and user profiles, and
 not allow nsfw.
 
 So, in liew of making a real alternative bc servers are expensive and I'm a hobbyist with
-no real expereince or education on coding besides my own, personal webist. I made this.
+no real expereince or education on coding besides my own, personal website. I made this.
 
 This is technically the second version, but the first sucked ass and never left my computer.
 
