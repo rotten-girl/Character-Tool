@@ -3,8 +3,6 @@
 | `--.\ '__' /\ \_/ /| {__ | .-. \| {}  }\ '__' / }  {  __ \     }\     }
 `----' `----'  `---' `----'`-' `-'`----'  `----'  `--' '__' `---'  `---' 
 ````````````````````````````````````````````````````````````````````````````````````
-THIS CODE ISNT EVEN CLOSE TO FINISHED HOMIES THERE'S LITERALLY NO USABLE CODE YET
-
 welcome to the bone zone, I fucking hate toyhouse <3
 
 Idk who all is gonna see this, since I don't really plan on making this super public
@@ -77,13 +75,12 @@ Generally, this would be non commercial, private use for an offline character pr
 use as an alternative archive. But change your wording to fit your needs (ESPECIALLY if you plan on making it any kind of public.)
 
 ````````````````````````````````````````````````````````````````````````````````````
-CURRENT PROGRESS
-[O] Create a faithful lookalike to the basic toyhouse character profile
-[O] Make it less of a nightmare to write code for
-[] Parse the preexisting css and trim down as much as I can, while maintaining
-as many names as I can to preserve compatibility
-[O] Make sure the site remains mobile friendly
+INSTALLATION INSTRUCTIONS
+1. Download the latest release of this tool by cloning the Github repo, or just downloading the raw data.
+2. Place the files wherever you would like your character gallery to be
+3. Load the character.html and, if applicable, the character.css files into your favourite code editor.
 
+````````````````````````````````````````````````````````````````````````````````````
 THINGS I WANT TO DO EVENTUALLY
 [] Make several colour themes for the basic profile, including but not limited to
 the themes already avalibe onsite
