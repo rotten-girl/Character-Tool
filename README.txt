@@ -2,7 +2,7 @@
 | |   /  __  \| | | || {_  | {}  }| {}  }/  __  \\ \/ /    /  ___}/  ___}
 | `--.\ '__' /\ \_/ /| {__ | .-. \| {}  }\ '__' / }  {  __ \     }\     }
 `----' `----'  `---' `----'`-' `-'`----'  `----'  `--' '__' `---'  `---' 
-
+````````````````````````````````````````````````````````````````````````````````````
 THIS CODE ISNT EVEN CLOSE TO FINISHED HOMIES THERE'S LITERALLY NO USABLE CODE YET
 
 welcome to the bone zone, I fucking hate toyhouse <3
@@ -28,12 +28,67 @@ not allow nsfw.
 So, in liew of making a real alternative bc servers are expensive and I'm a hobbyist with
 no real expereince or education on coding besides my own, personal website. I made this.
 
-This is technically the second version, but the first sucked ass and never left my computer.
+This is technically the second version, but the first sucked ass and never left my 'puter.
 
+````````````````````````````````````````````````````````````````````````````````````
+What this is:
+- a basic profile for your characters
+- a simple, self hosted solution for character storage
+- made to be mostly compatible with pre existing character codes.
 
-Okay rambling done.
+What this is not:
+- a perfect solution to character storage
+- easy to use (not that the toyhouse profiles were either)
+- a means to antagonize, rip off, or otherwise upset the creators, or users of toyhouse.
 
-Install instructions:
-1. download the latest release of Loverboy's Character Tool (LCT)
-2. extract the zip into wherever you want to keep your characters (as the tool will incorperate a link into your character profile)
-3. modify the character.html and, if nescesary, the character.css files to include the code you would like.
+As much as I hate the website, I genuinely have no hate in my heart towards the developers,
+moderators, or artists that use the site. This is meant to be a somewhat reasonable alternative,
+nothing more, nothing less. If anyone who is officially involved in the maintaining or 
+developing the website would like it modified to look less similar, or archived entirely,
+I am more than happy to oblige.
+
+````````````````````````````````````````````````````````````````````````````````````
+Requirements:
+- your favourite code editor (I'm fond of vscode)
+- ideally, a little bit of html + css expereince
+- the permission of the original creators of any html or css you plan to use.
+
+Due to this project including the full code of a character profile, including all of the
+navigaion bits that are usually hidden from users when using the on site html and css editors,
+it is much more intimidating to look at initially. Hense why I reccomend a bit of css and
+html knowledge. While I have done my best to clean up a lot of the more tangled bits of css,
+and have simplified much of the profile html (since various portions of the code would not be
+nescesary in an offline, self hosted enviroment) a large amount of said code remains, to maintain
+as much compatibility as possible with existing user codes.
+
+Complex html will not be plug and play, and you will likely need to make more adjustments than usual
+to make the code compatible with this tool, this is especially true of code that makes use of
+the toyhouse css import tool, as there is no way for that code to be aquired without the permission
+of the original coder.
+
+On that note, I am only responsible for the code directly included in this repo, and while I may 
+eventually make some templates and example profiles, it will not be until after the base code is
+complete and confirmed to be working.
+
+Until then, users of this code are REQUIRED to get the express permission of the original creators of
+any profile codes they choose to use.
+
+Generally, this would be non commercial, private use for an offline character profile intended for 
+use as an alternative archive. But change your wording to fit your needs (ESPECIALLY if you plan on making it any kind of public.)
+
+````````````````````````````````````````````````````````````````````````````````````
+CURRENT PROGRESS
+[] Create a faithful lookalike to the basic toyhouse character profile
+[] Make it less of a nightmare to write code for
+[] Parse the preexisting css and trim down as much as I can, while maintaining
+as many names as I can to preserve compatibility
+[] Make sure the site remains mobile friendly
+
+THINGS I WANT TO DO EVENTUALLY
+[] Make several colour themes for the basic profile, including but not limited to
+the themes already avalibe onsite
+[] Make a fully custom example theme
+[] Make several verified compatible themes
+[] Make a whitelist of coders who are alright with their code being avalible off site
+[] Remake the mobile side panel with functioning links
+[] Make an image gallery base that isn't annoying to use and update

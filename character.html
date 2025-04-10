@@ -3,11 +3,79 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name !</title>
+    <title>Character !</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="stylebase.css">
-    <link rel="stylesheet" href="character.css">
   </head>
-  <body>
+  <body class="page-body page-body-character" style="min-height: 100%;">
 
+    <!-- The Whole Damn Thing -->
+     <!--
+        There's a huge amount of editable shit in here, in fact the whole thing is
+        modifiable bc you got the whole code in here. But I went through and marked
+        out all the important bits that you really need to change, Name and info
+        and all that lovely bullshit
+     -->
+    <div class="container-fluid">
+      <div class="character-profile">
+          <div class="row profile-header">
+
+          <!-- Name + Info -->
+              <div class="col-lg-6 col-12 profile-section profile-name-section">
+                <div class="img-thumbnail">
+                  <img src="https://placehold.co/200" class="profile-name-icon">
+                </div>
+                <div class="profile-name-info">
+                   <h1 class="display-4">Character Name</h1>
+                </div>
+              </div>
+
+            <!-- Character Info -->
+              <div class="col-lg-6 col-12 profile-section profile-info-section">
+                  <div class="card-block bg-faded">
+                    <div class="profile-info-title hidden-lg-up"><h2>Info</h2><hr></div>
+                    <div class="profile-info-content row">
+                        <div class="row fields-field">
+                            <dt class="field-title col-sm-4">
+                                Created
+                            </dt>
+                            <dd class="field-value col-sm-8">
+                                <p>Day, Month, Year</p>
+                            </dd>
+                        </div>
+                        <div class="row fields-field">
+                            <dt class="field-title col-sm-4">
+                                Designer
+                            </dt>
+                              <dd class="field-value col-sm-8">
+                                  <a href="credit">Designer Username1</a>, 
+                                  <a href="credit">Designer Username2</a>,
+                              </dd>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 profile-tags-content">
+                            <p class="badge badge-primary badge-pill">Human</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="text-muted text-center p-3 footer" data-sticky-footer="">
+<div>
+                <span class="mx-1">2041 Users Online</span>
+            <span class="mx-1">12:15 am</span>
+</div>
+<div>
+    <span class="mx-2"><a href="https://toyhou.se/~about">About</a></span>
+    <span class="mx-2"><a href="https://toyhou.se/~faq/general">FAQ</a></span>
+                <span class="mx-2"><a href="https://toyhou.se/~tickets">HelpDesk</a></span>
+            <span class="mx-2"><a href="https://toyhou.se/~rules">Rules</a></span>
+    <span class="mx-2"><a href="https://toyhou.se/~tos">TOS</a></span>
+            <span class="mx-2"><a href="https://toyhou.se/~browse/search">Search</a></span>
+                        </div>
+    </div>
   </body>
 </html>
